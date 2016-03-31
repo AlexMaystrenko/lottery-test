@@ -1,0 +1,23 @@
+{
+  "name": "lottery-task",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Alex Maystrenko <alexxx.maystrenko@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "-",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#^0.97.5",
+    "moment": "^2.12.0"
+  }
+}

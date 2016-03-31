@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/* Icons */
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/* Results Widget */
+.results-component {
+  height: 400px;
+  overflow-y: scroll;
+  padding: 15px;
+  border-top: 1px solid lightgray;
+}
+
+.results-component .label {
+  float: left;
+}
+
+.results-component .balls {
+  padding-top: 10px;
+}
+.results-component .ball {
+  display: inline-block;
+  background: #DFDFDF;
+  padding: 9px;
+  font-size: 11px;
+  border-radius: 50%;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.results-component .ball.active {
+  background: #66B8F4;
+}
+
+.results-component .date {
+  float: right;
+}
+
+.results-component hr {
+  margin: 20px 0;
+  color: #D8D8D8;
+}
+
+.results-widget {
+  padding: 20px;
+}
+
+/* Navigation */
+nav .nav-link {
+  color: #55C5FF;
+  border-right: 1px solid #E4E4E4;
+}
